@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		58EBE22D103966BE0068D185 /* Telefrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EBE22C103966BE0068D185 /* Telefrag.m */; };
+		58FAFC78103980C600B7171A /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FAFC4A10397E9200B7171A /* MethodSwizzle.m */; };
+		58FAFCF01039A8D300B7171A /* Keymap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58FAFCEF1039A8D300B7171A /* Keymap.plist */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -20,6 +22,9 @@
 		32DBCF630370AF2F00C91783 /* Telefrag_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Telefrag_Prefix.pch; sourceTree = "<group>"; };
 		58EBE22B103966BE0068D185 /* Telefrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Telefrag.h; sourceTree = "<group>"; };
 		58EBE22C103966BE0068D185 /* Telefrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Telefrag.m; sourceTree = "<group>"; };
+		58FAFC4910397E9200B7171A /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
+		58FAFC4A10397E9200B7171A /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzle.m; sourceTree = "<group>"; };
+		58FAFCEF1039A8D300B7171A /* Keymap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keymap.plist; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Telefrag.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telefrag.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -65,6 +70,9 @@
 				58EBE22C103966BE0068D185 /* Telefrag.m */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				58FAFC4910397E9200B7171A /* MethodSwizzle.h */,
+				58FAFC4A10397E9200B7171A /* MethodSwizzle.m */,
+				58FAFCEF1039A8D300B7171A /* Keymap.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				58FAFCF01039A8D300B7171A /* Keymap.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FAFC78103980C600B7171A /* MethodSwizzle.m in Sources */,
 				58EBE22D103966BE0068D185 /* Telefrag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

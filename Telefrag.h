@@ -7,7 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <objc/objc-class.h>
 
+@interface TPEventTapsController
+
+@end
+
+@interface TPEventsController
+
+@end
 
 @interface Telefrag : NSObject {
 
