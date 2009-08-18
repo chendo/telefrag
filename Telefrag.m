@@ -11,10 +11,7 @@
 
 @implementation TPEventTapsController (Telefrag)
 
-
-
-- (void) _sendEventToListener_s:(id)event{
-  //NSLog(@"hook called with %@", event);
+- (void) _sendEventToListener_s:(CGEventRef)event{
   CGEventType type = CGEventGetType(event);
   
   if (type == kCGEventKeyDown || type == kCGEventKeyUp) {
@@ -64,7 +61,7 @@
 + (void) loadKeymap {
   NSString *errorDesc = nil;
   NSPropertyListFormat format;
-  NSString *plistPath = @"/Volumes/Data/Users/chendo/Code/Telefrag/build/Debug/Telefrag.bundle/Contents/Resources/Keymap.plist"; //[[NSBundle mainBundle] pathForResource:@"Keymap" ofType:@""];
+  NSString *plistPath = [[NSBundle bundleForClass:self] pathForResource:@"Keymap" ofType:@"plist"];
   NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
   moddedKeymap = (NSDictionary *)[NSPropertyListSerialization
                                   propertyListFromData:plistXML
