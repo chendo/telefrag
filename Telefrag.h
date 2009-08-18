@@ -13,14 +13,12 @@
 
 @end
 
-@interface TPEventsController
-
-@end
-
 @interface Telefrag : NSObject {
 
 }
 
++ (int) getMappedKeycode:(int) keyCode;
++ (void) loadKeymap;
 + (void) load;
 
 @end
