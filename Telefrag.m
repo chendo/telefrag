@@ -67,6 +67,7 @@
                                   propertyListFromData:plistXML
                                   mutabilityOption:NSPropertyListMutableContainersAndLeaves
                                   format:&format errorDescription:&errorDesc];
+  [moddedKeymap retain];
   NSLog(@"keymap loaded: %@", moddedKeymap);
 }
 
