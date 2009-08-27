@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58E67279104627D200FC3563 /* Colemak_Dvorak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58E67273104627D200FC3563 /* Colemak_Dvorak.plist */; };
+		58E6727A104627D200FC3563 /* Colemak_QWERTY.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58E67274104627D200FC3563 /* Colemak_QWERTY.plist */; };
+		58E6727B104627D200FC3563 /* Dvorak_Colemak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58E67275104627D200FC3563 /* Dvorak_Colemak.plist */; };
+		58E6727C104627D200FC3563 /* Dvorak_QWERTY.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58E67276104627D200FC3563 /* Dvorak_QWERTY.plist */; };
+		58E6727D104627D200FC3563 /* QWERTY_Colemak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58E67277104627D200FC3563 /* QWERTY_Colemak.plist */; };
+		58E6727E104627D200FC3563 /* QWERTY_Dvorak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58E67278104627D200FC3563 /* QWERTY_Dvorak.plist */; };
 		58EBE22D103966BE0068D185 /* Telefrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EBE22C103966BE0068D185 /* Telefrag.m */; };
 		58FAFC78103980C600B7171A /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FAFC4A10397E9200B7171A /* MethodSwizzle.m */; };
-		58FAFCF01039A8D300B7171A /* Keymap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58FAFCEF1039A8D300B7171A /* Keymap.plist */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -20,11 +25,16 @@
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF630370AF2F00C91783 /* Telefrag_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Telefrag_Prefix.pch; sourceTree = "<group>"; };
+		58E67273104627D200FC3563 /* Colemak_Dvorak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Colemak_Dvorak.plist; path = Keymaps/Colemak_Dvorak.plist; sourceTree = "<group>"; };
+		58E67274104627D200FC3563 /* Colemak_QWERTY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Colemak_QWERTY.plist; path = Keymaps/Colemak_QWERTY.plist; sourceTree = "<group>"; };
+		58E67275104627D200FC3563 /* Dvorak_Colemak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Dvorak_Colemak.plist; path = Keymaps/Dvorak_Colemak.plist; sourceTree = "<group>"; };
+		58E67276104627D200FC3563 /* Dvorak_QWERTY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Dvorak_QWERTY.plist; path = Keymaps/Dvorak_QWERTY.plist; sourceTree = "<group>"; };
+		58E67277104627D200FC3563 /* QWERTY_Colemak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QWERTY_Colemak.plist; path = Keymaps/QWERTY_Colemak.plist; sourceTree = "<group>"; };
+		58E67278104627D200FC3563 /* QWERTY_Dvorak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = QWERTY_Dvorak.plist; path = Keymaps/QWERTY_Dvorak.plist; sourceTree = "<group>"; };
 		58EBE22B103966BE0068D185 /* Telefrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Telefrag.h; sourceTree = "<group>"; };
 		58EBE22C103966BE0068D185 /* Telefrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Telefrag.m; sourceTree = "<group>"; };
 		58FAFC4910397E9200B7171A /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
 		58FAFC4A10397E9200B7171A /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzle.m; sourceTree = "<group>"; };
-		58FAFCEF1039A8D300B7171A /* Keymap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keymap.plist; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Telefrag.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Telefrag.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -66,13 +76,9 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				58EBE22B103966BE0068D185 /* Telefrag.h */,
-				58EBE22C103966BE0068D185 /* Telefrag.m */,
+				58E6726E10461FE300FC3563 /* Keymaps */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-				58FAFC4910397E9200B7171A /* MethodSwizzle.h */,
-				58FAFC4A10397E9200B7171A /* MethodSwizzle.m */,
-				58FAFCEF1039A8D300B7171A /* Keymap.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -80,6 +86,10 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				58EBE22B103966BE0068D185 /* Telefrag.h */,
+				58EBE22C103966BE0068D185 /* Telefrag.m */,
+				58FAFC4910397E9200B7171A /* MethodSwizzle.h */,
+				58FAFC4A10397E9200B7171A /* MethodSwizzle.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -116,6 +126,19 @@
 				32DBCF630370AF2F00C91783 /* Telefrag_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		58E6726E10461FE300FC3563 /* Keymaps */ = {
+			isa = PBXGroup;
+			children = (
+				58E67273104627D200FC3563 /* Colemak_Dvorak.plist */,
+				58E67274104627D200FC3563 /* Colemak_QWERTY.plist */,
+				58E67275104627D200FC3563 /* Dvorak_Colemak.plist */,
+				58E67276104627D200FC3563 /* Dvorak_QWERTY.plist */,
+				58E67277104627D200FC3563 /* QWERTY_Colemak.plist */,
+				58E67278104627D200FC3563 /* QWERTY_Dvorak.plist */,
+			);
+			name = Keymaps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				58FAFCF01039A8D300B7171A /* Keymap.plist in Resources */,
+				58E67279104627D200FC3563 /* Colemak_Dvorak.plist in Resources */,
+				58E6727A104627D200FC3563 /* Colemak_QWERTY.plist in Resources */,
+				58E6727B104627D200FC3563 /* Dvorak_Colemak.plist in Resources */,
+				58E6727C104627D200FC3563 /* Dvorak_QWERTY.plist in Resources */,
+				58E6727D104627D200FC3563 /* QWERTY_Colemak.plist in Resources */,
+				58E6727E104627D200FC3563 /* QWERTY_Dvorak.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

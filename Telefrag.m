@@ -62,6 +62,10 @@
   NSString *errorDesc = nil;
   NSPropertyListFormat format;
   NSString *plistPath = [[NSBundle bundleForClass:self] pathForResource:@"Keymap" ofType:@"plist"];
+	if (plistPath == NULL) {
+		NSLog(@"Keymap.plist not found; have you made the symlink yet?");
+		return;
+	}
   NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:plistPath];
   moddedKeymap = (NSDictionary *)[NSPropertyListSerialization
                                   propertyListFromData:plistXML
