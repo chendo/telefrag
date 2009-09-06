@@ -4,7 +4,7 @@
    QWERTY_Colemak.plist
    Telefrag
    
-   Created by chendo on Thu Aug 27 12:32:27 +1000 2009.
+   Created by chendo on Mon Sep 07 09:06:29 +1000 2009.
 -->
 <plist version="1.0">
     <dict>
@@ -28,7 +28,7 @@
       <key>23</key><integer>23</integer>
       <key>12</key><integer>12</integer>
       <key>1</key><integer>2</integer>
-      <key>51</key><integer></integer>
+      <key>51</key><integer>51</integer>
       <key>40</key><integer>45</integer>
       <key>29</key><integer>29</integer>
       <key>18</key><integer>18</integer>
@@ -38,22 +38,22 @@
       <key>24</key><integer>24</integer>
       <key>13</key><integer>13</integer>
       <key>2</key><integer>5</integer>
-      <key>52</key><integer></integer>
+      <key>52</key><integer>52</integer>
       <key>41</key><integer>35</integer>
       <key>30</key><integer>30</integer>
       <key>19</key><integer>19</integer>
       <key>8</key><integer>8</integer>
       <key>47</key><integer>47</integer>
-      <key>36</key><integer></integer>
+      <key>36</key><integer>36</integer>
       <key>25</key><integer>25</integer>
       <key>14</key><integer>40</integer>
       <key>3</key><integer>14</integer>
-      <key>53</key><integer></integer>
+      <key>53</key><integer>53</integer>
       <key>42</key><integer>42</integer>
       <key>31</key><integer>41</integer>
       <key>20</key><integer>20</integer>
       <key>9</key><integer>9</integer>
-      <key>48</key><integer></integer>
+      <key>48</key><integer>48</integer>
       <key>37</key><integer>32</integer>
       <key>26</key><integer>26</integer>
       <key>15</key><integer>1</integer>
@@ -61,6 +61,6 @@
       <key>43</key><integer>43</integer>
       <key>32</key><integer>34</integer>
       <key>21</key><integer>21</integer>
-      <key>10</key><integer></integer>
+      <key>10</key><integer>10</integer>
     </dict>
 </plist>
